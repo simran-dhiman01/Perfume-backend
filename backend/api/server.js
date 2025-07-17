@@ -27,10 +27,5 @@ app.get("/", (req, res) => {
 });
 
 
-const PORT = process.env.PORT || 3000
-app.listen(PORT, () => {
-    connectDB()
-    console.log(`Server running on PORT ${PORT}`);
-})
 
 export default serverless(app)
