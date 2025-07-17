@@ -13,7 +13,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(cookieparser())
 app.use(cors({
-    origin: "http://localhost:4028", // your frontend origin
+    origin: "https://perfume-project-phi.vercel.app/", // your frontend origin
     credentials: true,               // allow cookies/credentials
 }))
 
